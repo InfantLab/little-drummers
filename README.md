@@ -12,4 +12,4 @@ This folder contains files to run a web based study of rhythm perception in todd
 
 
 
-* This study has recieved ethical approval from the Ethics Committee in the Psychology Department of Goldsmiths, University of London. * 
+_This study has recieved ethical approval from the Ethics Committee in the Psychology Department of Goldsmiths, University of London._
