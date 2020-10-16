@@ -13,10 +13,9 @@ This repository holds code, data and documentation for a study of rhythm percept
 
 
 This directory has several subfolders
-`lookit` -  This folder contains files to run a web based study of rhythm perception in toddlers. The experiment runs on the 
-[MIT LookIT](https://lookit.mit.edu) platform. To find out more about using this in your own research visit the [LookIT documentation](https://lookit.readthedocs.io/en/develop/)
-`docs` - Supporting documentation such as ethics forms, data sharing agreements (including GDPR) 
-`data` - Anonymised data from the study
+* `lookit` -  This folder contains files to run a web based study of rhythm perception in toddlers. The experiment runs on the [MIT LookIT](https://lookit.mit.edu) platform. To find out more about using this in your own research visit the [LookIT documentation](https://lookit.readthedocs.io/en/develop/)
+* `docs` - Supporting documentation such as ethics forms, data sharing agreements (including GDPR) 
+* `data` - Anonymised data from the study
 
 
 _This study has recieved ethical approval from the Ethics Committee in the Psychology Department of Goldsmiths, University of London, September 2020._
