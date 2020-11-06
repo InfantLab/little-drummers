@@ -1,16 +1,15 @@
 {
-    "parameterSets" : [
-        {
-            "VIDEO1":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4",
-            "VIDEO2":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4",
-            "VIDEO3":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4",
-            "VIDEO4":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4"
+    "parameterSets": [{
+            "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4",
+            "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4",
+            "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4",
+            "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4"
         },
         {
-            "VIDEO1":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4",
-            "VIDEO2":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4",
-            "VIDEO3":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4",
-            "VIDEO4":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4"
+            "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4",
+            "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4",
+            "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4",
+            "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4"
         }
     ],
     "frames": {
@@ -84,8 +83,7 @@
             "PIContact": "This study is run by Dr. Sinead Rocha at University of Cambridge, UK, and Dr. Caspar Addyman at Goldsmiths, University of London, UK. If you or your child have any questions or concerns about this study, or in the very unlikely event of a research-related injury, please contact the Goldsmiths InfantLab at infantlab@gold.ac.uk or Dr Sinead Rocha at sineadrocha@gmail.com.If you or your child have any questions or concerns about the Lookit platform, please contact Kim Scott at kimscott@mit.edu or 617 324 4859.",
             "procedures": "This study takes about 10 minutes to complete. We ask that your child is sat in a chair or highchair, within easy reach of a table. Your child will see some videos of a hand drumming (some fast, some slow) and will be asked to drum along on the table in front of them. We will then ask you to complete an online survey, which includes some fun interactive games to try with your little one. There are no anticipated risks associated with participating.",
             "institution": "University of Cambridge and Goldsmiths, University of London",
-            "additional_segments": [
-                {
+            "additional_segments": [{
                     "text": "We cannot promise any benefits to you or others from your taking part in this research. You will not receive results of the procedures and tasks your child performs as part of this research. Our conclusions are about how groups of children respond, and therefore individual results are not meaningful. However, possible benefits include learning more about research with children. Possible benefits to others include a general understanding of how children learn about the visual world, which may be important for educators and others.",
                     "title": "Benefits"
                 },
@@ -101,10 +99,7 @@
         "my-exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n
-                It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email. \n
-Examining how moving in time with the beat is related to a general ability to be flexible and adaptive in our behavior will give us new insights into what cognitive skills are really feeding into our sense of rhythm. Thank you so much for contributing to this research. We hope you enjoy the final part of the study!
-",
+                "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email.\n Examining how moving in time with the beat is related to a general ability to be flexible and adaptive in our behavior will give us new insights into what cognitive skills are really feeding into our sense of rhythm.Thank you so much for contributing to this research.We hope you enjoy the final part of the study!",
                 "image": {
                     "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/waitingame.png"
                 },
@@ -113,28 +108,22 @@ Examining how moving in time with the beat is related to a general ability to be
         },
         "study-completion": {
             "kind": "exp-lookit-preferential-looking",
-            "announcementAudio": [
-                {
-                    "src": "https://raw.githubusercontent.com/UCDOakeslab/FM_lookit_Study/master/StudyIsOverAudio.mp3",
-                    "type": "audio/mp3"
-                }
-            ],
-            "announcementVideo": [
-                {
-                    "src": "https://raw.githubusercontent.com/UCDOakeslab/FM_lookit_Study/master/ThankYouMovie.mp4",
-                    "type": "video/mp4"
-                }
-            ],
+            "announcementAudio": [{
+                "src": "https://raw.githubusercontent.com/UCDOakeslab/FM_lookit_Study/master/StudyIsOverAudio.mp3",
+                "type": "audio/mp3"
+            }],
+            "announcementVideo": [{
+                "src": "https://raw.githubusercontent.com/UCDOakeslab/FM_lookit_Study/master/ThankYouMovie.mp4",
+                "type": "video/mp4"
+            }],
             "calibrationLength": 0,
             "announcementLength": 7
         },
         "first-instructions": {
             "kind": "exp-lookit-instructions",
-            "blocks": [
-                {
+            "blocks": [{
                     "title": "What to do during the study:",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "If your child gets fussy or distracted during the study, or you need to attend to something else for a moment, you can pause the study by pressing the spacebar."
                         },
                         {
@@ -162,13 +151,12 @@ Examining how moving in time with the beat is related to a general ability to be
                     }
                 },
                 {
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "Please make sure we have a good view of your little one during the study. The best position for your child would be in a highchair or similar, with you sitting next to them. Sitting on your lap is not ideal, as we adults tend to make tiny movements when listening to a beat, even if we are trying to sit still, and we don’t want these to influence your child’s movement. "
 
                         },
                         {
-                          "text": "Above is an example of what we would like to see - you will need some table space between your child and the computer, so you might need to push the computer a bit further back than normal."
+                            "text": "Above is an example of what we would like to see - you will need some table space between your child and the computer, so you might need to push the computer a bit further back than normal."
                         },
                         {
                             "text": "Don’t worry if you feel your baby becoming disinterested in the screen. Even if your baby only drums a little bit, we are still collecting valuable data from your baby."
@@ -184,8 +172,7 @@ Examining how moving in time with the beat is related to a general ability to be
                     }
                 },
                 {
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "The most important role you have during the study is to keep your eyes closed. We know this sounds a little strange, but believe it or not, your baby is learning from you and where you look at every moment. "
                         },
                         {
@@ -201,8 +188,7 @@ Examining how moving in time with the beat is related to a general ability to be
                 },
                 {
                     "title": "What to do when the study is finished:",
-                    "listblocks": [
-                        {
+                    "listblocks": [{
                             "text": "Once the study has finished playing, you’ll be given an opportunity to report any technical problems you may have experienced along the way."
                         },
                         {
@@ -212,35 +198,28 @@ Examining how moving in time with the beat is related to a general ability to be
                 }
             ],
             "showWebcam": true,
-            "webcamBlocks": [
-                {
-                    "title": "It's time to get your baby & check yourself out!",
-                    "listblocks": [
-                        {
-                            "text": "Take a few moments to get settled and use the webcam preview to make sure your child’s whole upper body and some table space is in view. Also be sure that it isn’t too dark, and that you are not blocking the view of your child."
-                        },
-                        {
-                            "text": "The green button down below will take you to the beginning of the study. So, press the button when you and your baby are in position and ready to go."
-                        }
-                    ]
-                }
-            ],
+            "webcamBlocks": [{
+                "title": "It's time to get your baby & check yourself out!",
+                "listblocks": [{
+                        "text": "Take a few moments to get settled and use the webcam preview to make sure your child’s whole upper body and some table space is in view. Also be sure that it isn’t too dark, and that you are not blocking the view of your child."
+                    },
+                    {
+                        "text": "The green button down below will take you to the beginning of the study. So, press the button when you and your baby are in position and ready to go."
+                    }
+                ]
+            }],
             "nextButtonText": "Me and my baby are in position and ready to start! \n(Close your eyes after you press this button)"
         },
         "attention_get_one": {
             "kind": "exp-lookit-composite-video-trial",
-            "sources": [
-                {
-                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                    "type": "video/mp4"
-                }
-            ],
-            "altSources": [
-                {
-                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                    "type": "video/mp4"
-                }
-            ],
+            "sources": [{
+                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
+                "type": "video/mp4"
+            }],
+            "altSources": [{
+                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
+                "type": "video/mp4"
+            }],
             "testLength": 10,
             "videoTypes": [
                 "mp4"
@@ -250,18 +229,14 @@ Examining how moving in time with the beat is related to a general ability to be
         },
         "attention_get_two": {
             "kind": "exp-lookit-composite-video-trial",
-            "sources": [
-                {
-                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                    "type": "video/mp4"
-                }
-            ],
-            "altSources": [
-                {
-                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                    "type": "video/mp4"
-                }
-            ],
+            "sources": [{
+                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                "type": "video/mp4"
+            }],
+            "altSources": [{
+                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                "type": "video/mp4"
+            }],
             "testLength": 5,
             "videoTypes": [
                 "mp4"
@@ -271,18 +246,14 @@ Examining how moving in time with the beat is related to a general ability to be
         },
         "attention_get_three": {
             "kind": "exp-lookit-composite-video-trial",
-            "sources": [
-                {
-                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
-                    "type": "video/mp4"
-                }
-            ],
-            "altSources": [
-                {
-                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
-                    "type": "video/mp4"
-                }
-            ],
+            "sources": [{
+                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                "type": "video/mp4"
+            }],
+            "altSources": [{
+                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                "type": "video/mp4"
+            }],
             "testLength": 5,
             "videoTypes": [
                 "mp4"
