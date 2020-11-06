@@ -1,15 +1,15 @@
 {
     "parameterSets" : [
         {
-            "VIDEO1":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4"
-            "VIDEO2":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4"
-            "VIDEO3":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4"
+            "VIDEO1":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4",
+            "VIDEO2":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4",
+            "VIDEO3":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4",
             "VIDEO4":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4"
         },
         {
-            "VIDEO1":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4"
-            "VIDEO2":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4"
-            "VIDEO3":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4"
+            "VIDEO1":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4",
+            "VIDEO2":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4",
+            "VIDEO3":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4",
             "VIDEO4":"https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4"
         }
     ],
@@ -101,9 +101,12 @@
         "my-exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "This is a picture of all the different tetris blocks that your baby saw during the study. This study represents a first step in understanding mental rotation during infancy. Examining how babies can mentally rotate objects, such as tetris blocks is critical to understand how mental rotation abilities may influence the development of spatial abilities in infants. \n \n Follow the <a href='https://www.facebook.com/UC-Davis-Infant-Cognition-Lab-532205103510671/' target='_blank' rel='noopener'>UC Davis Infant Cognition Lab</a> on Facebook to learn more about our lab and stay connected for our future studies and findings! \n \n Within 3 days, you will receive a $5 Amazon giftcard for your participation in this study.",
+                "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n
+                It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email. \n
+Examining how moving in time with the beat is related to a general ability to be flexible and adaptive in our behavior will give us new insights into what cognitive skills are really feeding into our sense of rhythm. Thank you so much for contributing to this research. We hope you enjoy the final part of the study!
+",
                 "image": {
-                    "src": "https://raw.githubusercontent.com/UCDOakeslab/Baby_MR_Lookit/master/debriefing_stimuli.png"
+                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/waitingame.png"
                 },
                 "title": "Thank you for participating in our study!"
             }
@@ -129,21 +132,6 @@
             "kind": "exp-lookit-instructions",
             "blocks": [
                 {
-                    "text": " ",
-                    "title": "Before you get your baby to get started, please watch the video below for more instructions.",
-                    "mediaBlock": {
-                        "text": "All of the information in the video can be found below in print if you prefer to read the instructions instead.",
-                        "isVideo": true,
-                        "sources": [
-                            {
-                                "src": "https://raw.githubusercontent.com/UCDOakeslab/FM_lookit_Study/master/Second_Instruction_Video_071520.mp4",
-                                "type": "video/mp4"
-                            }
-                        ],
-                        "mustPlay": false
-                    }
-                },
-                {
                     "title": "What to do during the study:",
                     "listblocks": [
                         {
@@ -161,17 +149,22 @@
                     ]
                 },
                 {
-                    "title": "Your role during the study:"
+                    "title": "Find a good position:"
                 },
                 {
                     "image": {
-                        "src": ""
+                        "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/kid.drumontable.up.png"
+                    }
+                },
+                {
+                    "image": {
+                        "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/kid.drumontable.down.png"
                     }
                 },
                 {
                     "listblocks": [
                         {
-                            "text": "Your role is to make sure we have a good view of your little one during the study. The best position for your child would be in a highchair or similar, with you sitting next to them. Sitting on your lap is not ideal, as we adults tend to make tiny movements when listening to a beat, even if we are trying to sit still, and we don’t want these to influence your child’s movement. "
+                            "text": "Please make sure we have a good view of your little one during the study. The best position for your child would be in a highchair or similar, with you sitting next to them. Sitting on your lap is not ideal, as we adults tend to make tiny movements when listening to a beat, even if we are trying to sit still, and we don’t want these to influence your child’s movement. "
 
                         },
                         {
