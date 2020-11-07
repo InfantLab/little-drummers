@@ -1,89 +1,207 @@
 {
-    "parameterSets": [{
-            "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4",
-            "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4",
-            "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4",
-            "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4"
-        },
-        {
-            "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.mp4",
-            "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.mp4",
-            "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.mp4",
-            "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.mp4"
-        }
-    ],
     "frames": {
-        "trial-zero": {
-            "kind": "exp-lookit-composite-video-trial",
-            "sources": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.mp4",
-            "altSources": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.mp4",
-            "testLength": 20,
-            "videoTypes": [
-                "mp4"
+        "test-trials": {
+            "sampler": "random-parameter-set",
+            "kind": "choice",
+            "id": "test-trials",
+            "frameList": [
+                {
+                    "name": "video0",
+                    "requiredDuration": 20,
+                    "doRecording": true,
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO0",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "attngetter0",
+                    "requiredDuration": 5,
+                    "doRecording": false,
+                    "parentTextBlock": {
+                        "text": "Next block coming up shortly."
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "ATTN0",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "video1",
+                    "requiredDuration": 20,
+                    "doRecording": true,
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO1",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "attngetter1",
+                    "requiredDuration": 5,
+                    "doRecording": false,
+                    "parentTextBlock": {
+                        "text": "Next block coming up shortly."
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "ATTN1",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "video2",
+                    "requiredDuration": 20,
+                    "doRecording": true,
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO2",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "attngetter2",
+                    "requiredDuration": 5,
+                    "doRecording": false,
+                    "parentTextBlock": {
+                        "text": "Next block coming up shortly."
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "ATTN2",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "video3",
+                    "requiredDuration": 20,
+                    "doRecording": true,
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO3",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "attngetter3",
+                    "requiredDuration": 5,
+                    "doRecording": false,
+                    "parentTextBlock": {
+                        "text": "Next block coming up shortly."
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "ATTN0",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "video4",
+                    "requiredDuration": 20,
+                    "doRecording": true,
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO3",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "attngetter4",
+                    "requiredDuration": 5,
+                    "doRecording": false,
+                    "parentTextBlock": {
+                        "text": "The study is over. Well done."
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "ATTN4",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                }
             ],
-            "calibrationLength": 0,
-            "announcementLength": 0
-        },
-        "trial-one": {
-            "kind": "exp-lookit-composite-video-trial",
-            "sources": "VIDEO1",
-            "altSources": "VIDEO1",
-            "testLength": 20,
-            "videoTypes": [
-                "mp4"
-            ],
-            "calibrationLength": 0,
-            "announcementLength": 0
-        },
-        "trial-two": {
-            "kind": "exp-lookit-composite-video-trial",
-            "sources": "VIDEO2",
-            "altSources": "VIDEO2",
-            "testLength": 20,
-            "videoTypes": [
-                "mp4"
-            ],
-            "calibrationLength": 0,
-            "announcementLength": 0
-        },
-        "trial-three": {
-            "kind": "exp-lookit-composite-video-trial",
-            "sources": "VIDEO3",
-            "altSources": "VIDEO3",
-            "testLength": 20,
-            "videoTypes": [
-                "mp4"
-            ],
-            "calibrationLength": 0,
-            "announcementLength": 0
-        },
-        "trial-four": {
-            "kind": "exp-lookit-composite-video-trial",
-            "sources": "VIDEO4",
-            "altSources": "VIDEO4",
-            "testLength": 20,
-            "videoTypes": [
-                "mp4"
-            ],
-            "calibrationLength": 0,
-            "announcementLength": 0
+            "commonFrameProperties": {
+                "kind": "exp-lookit-video",
+                "requireVideoCount": 1,
+                "parentTextBlock": {
+                    "text": "If your child needs a break, just press SPACE to pause!"
+                }
+            },
+            "parameterSets": [
+                {
+                    "VIDEO0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
+                    "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
+                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
+                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
+                    "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
+                    "ATTN0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                    "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
+                    "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                    "ATTN4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4"
+                },
+                {
+                    "VIDEO0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
+                    "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
+                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
+                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
+                    "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
+                    "ATTN0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                    "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                    "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
+                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                    "ATTN4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4"
+                }
+            ]
         },
         "video-config": {
             "kind": "exp-video-config",
-            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please email Dr Caspar Addyman with a brief description of the problem."
+            "troubleshootingIntro": "If you're having any trouble getting your webcam set up, please email Dr Caspar Addyman <c.addyman@gold.ac.uk> with a brief description of the problem."
         },
         "video-consent": {
             "gdpr": true,
             "kind": "exp-lookit-video-consent",
-            "PIName": "Dr. Sinead Rocha",
-            "datause": "The research group led by Dr. Sinead Rocha at University of Cambridge, UK will have access to video and other data collected during this session. We will also have access to your account profile, demographic survey, and the child profile for the child who is participating, including changes you make in the future to any of this information. We may study your child's responses in connection with his or her previous responses to this or other studies run by our group, siblings' responses to this or other studies run by our group, or demographic survey responses.  We are primarily interested in your child's ability to match the rhythms that they hear. We will use specialist software to track your child’s movements in the video and give an estimation of their timing, and then look at this data in light of your survey responses. ",
+            "PIName": "Dr Sinead Rocha",
+            "datause": "We are primarily interested in your child's ability to match the rhythms that they hear. We will use specialist software to track your child’s movements in the video and give an estimation of their timing, and then look at this data in light of your survey responses.",
             "payment": "There is no compensation for taking part in this study.",
             "purpose": "Whilst tapping along to our favourite song may seem automatic to us as adults, it is actually a pretty complex behaviour. We know that young children are brilliant at ‘sensing’ the rhythm of music but that they take some time to be able to coordinate their movement to it. We would like to know if the developing skill of toddlers to move in time with the beat of music is related to their general ability to monitor and adapt to the environment around them.",
             "template": "consent_002",
             "PIContact": "This study is run by Dr. Sinead Rocha at University of Cambridge, UK, and Dr. Caspar Addyman at Goldsmiths, University of London, UK. If you or your child have any questions or concerns about this study, or in the very unlikely event of a research-related injury, please contact the Goldsmiths InfantLab at infantlab@gold.ac.uk or Dr Sinead Rocha at sineadrocha@gmail.com.If you or your child have any questions or concerns about the Lookit platform, please contact Kim Scott at kimscott@mit.edu or 617 324 4859.",
-            "procedures": "This study takes about 10 minutes to complete. We ask that your child is sat in a chair or highchair, within easy reach of a table. Your child will see some videos of a hand drumming (some fast, some slow) and will be asked to drum along on the table in front of them. We will then ask you to complete an online survey, which includes some fun interactive games to try with your little one. There are no anticipated risks associated with participating.",
-            "institution": "University of Cambridge and Goldsmiths, University of London",
-            "additional_segments": [{
+            "procedures": "We ask that your child is sat in a chair or highchair, within easy reach of a table. Your child will see some videos of a hand drumming (some fast, some slow) and will be asked to drum along on the table in front of them. We will then ask you to complete an online survey, which includes some fun interactive games to try with your little one. There are no anticipated risks associated with participating.",
+            "institution": "University of Cambridge and Goldsmiths, University of London, UK",
+            "additional_segments": [
+                {
                     "text": "We cannot promise any benefits to you or others from your taking part in this research. You will not receive results of the procedures and tasks your child performs as part of this research. Our conclusions are about how groups of children respond, and therefore individual results are not meaningful. However, possible benefits include learning more about research with children. Possible benefits to others include a general understanding of how children learn about the visual world, which may be important for educators and others.",
                     "title": "Benefits"
                 },
@@ -101,29 +219,18 @@
             "debriefing": {
                 "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email.\n Examining how moving in time with the beat is related to a general ability to be flexible and adaptive in our behavior will give us new insights into what cognitive skills are really feeding into our sense of rhythm.Thank you so much for contributing to this research.We hope you enjoy the final part of the study!",
                 "image": {
-                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/waitingame.png"
+                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/waitinggame.png"
                 },
                 "title": "Thank you for participating in our study!"
             }
         },
-        "study-completion": {
-            "kind": "exp-lookit-preferential-looking",
-            "announcementAudio": [{
-                "src": "https://raw.githubusercontent.com/UCDOakeslab/FM_lookit_Study/master/StudyIsOverAudio.mp3",
-                "type": "audio/mp3"
-            }],
-            "announcementVideo": [{
-                "src": "https://raw.githubusercontent.com/UCDOakeslab/FM_lookit_Study/master/ThankYouMovie.mp4",
-                "type": "video/mp4"
-            }],
-            "calibrationLength": 0,
-            "announcementLength": 7
-        },
         "first-instructions": {
             "kind": "exp-lookit-instructions",
-            "blocks": [{
+            "blocks": [
+                {
                     "title": "What to do during the study:",
-                    "listblocks": [{
+                    "listblocks": [
+                        {
                             "text": "If your child gets fussy or distracted during the study, or you need to attend to something else for a moment, you can pause the study by pressing the spacebar."
                         },
                         {
@@ -151,9 +258,9 @@
                     }
                 },
                 {
-                    "listblocks": [{
+                    "listblocks": [
+                        {
                             "text": "Please make sure we have a good view of your little one during the study. The best position for your child would be in a highchair or similar, with you sitting next to them. Sitting on your lap is not ideal, as we adults tend to make tiny movements when listening to a beat, even if we are trying to sit still, and we don’t want these to influence your child’s movement. "
-
                         },
                         {
                             "text": "Above is an example of what we would like to see - you will need some table space between your child and the computer, so you might need to push the computer a bit further back than normal."
@@ -164,31 +271,22 @@
                     ]
                 },
                 {
-                    "title": "Please close your eyes during the study"
+                    "title": "What you should during the study"
                 },
                 {
-                    "image": {
-                        "src": "https://raw.githubusercontent.com/UCDOakeslab/FM_lookit_Study/master/ExampleMomsEyesClosed.jpg"
-                    }
-                },
-                {
-                    "listblocks": [{
-                            "text": "The most important role you have during the study is to keep your eyes closed. We know this sounds a little strange, but believe it or not, your baby is learning from you and where you look at every moment. "
+                    "listblocks": [
+                        {
+                            "text": "The most important role you have during the study is to match sure your baby stays in front of the computer."
                         },
                         {
-                            "text": "We want to make sure that your looking behavior during the study does not influence your baby’s looking behavior, so we ask you to keep your eyes closed during the study."
-                        },
-                        {
-                            "text": "We also ask that you don’t speak to your baby or try to direct their attention in any way during the study."
-                        },
-                        {
-                            "text": "You will hear an audio prompt when the study is finished letting you know that the study is over and that you can open your eyes. The study will last about 2-3 minutes in total."
+                            "text": "You can encourage them to keep drumming."
                         }
                     ]
                 },
                 {
                     "title": "What to do when the study is finished:",
-                    "listblocks": [{
+                    "listblocks": [
+                        {
                             "text": "Once the study has finished playing, you’ll be given an opportunity to report any technical problems you may have experienced along the way."
                         },
                         {
@@ -198,84 +296,27 @@
                 }
             ],
             "showWebcam": true,
-            "webcamBlocks": [{
-                "title": "It's time to get your baby & check yourself out!",
-                "listblocks": [{
-                        "text": "Take a few moments to get settled and use the webcam preview to make sure your child’s whole upper body and some table space is in view. Also be sure that it isn’t too dark, and that you are not blocking the view of your child."
-                    },
-                    {
-                        "text": "The green button down below will take you to the beginning of the study. So, press the button when you and your baby are in position and ready to go."
-                    }
-                ]
-            }],
+            "webcamBlocks": [
+                {
+                    "title": "It's time to get your baby & check yourself out!",
+                    "listblocks": [
+                        {
+                            "text": "Take a few moments to get settled and use the webcam preview to make sure your child’s whole upper body and some table space is in view. Also be sure that it isn’t too dark, and that you are not blocking the view of your child."
+                        },
+                        {
+                            "text": "The green button down below will take you to the beginning of the study. So, press the button when you and your baby are in position and ready to go."
+                        }
+                    ]
+                }
+            ],
             "nextButtonText": "Me and my baby are in position and ready to start! \n(Close your eyes after you press this button)"
-        },
-        "attention_get_one": {
-            "kind": "exp-lookit-composite-video-trial",
-            "sources": [{
-                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                "type": "video/mp4"
-            }],
-            "altSources": [{
-                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                "type": "video/mp4"
-            }],
-            "testLength": 10,
-            "videoTypes": [
-                "mp4"
-            ],
-            "calibrationLength": 0,
-            "announcementLength": 0
-        },
-        "attention_get_two": {
-            "kind": "exp-lookit-composite-video-trial",
-            "sources": [{
-                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                "type": "video/mp4"
-            }],
-            "altSources": [{
-                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                "type": "video/mp4"
-            }],
-            "testLength": 5,
-            "videoTypes": [
-                "mp4"
-            ],
-            "calibrationLength": 0,
-            "announcementLength": 0
-        },
-        "attention_get_three": {
-            "kind": "exp-lookit-composite-video-trial",
-            "sources": [{
-                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
-                "type": "video/mp4"
-            }],
-            "altSources": [{
-                "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
-                "type": "video/mp4"
-            }],
-            "testLength": 5,
-            "videoTypes": [
-                "mp4"
-            ],
-            "calibrationLength": 0,
-            "announcementLength": 0
         }
     },
     "sequence": [
         "video-config",
         "video-consent",
         "first-instructions",
-        "trial-zero",
-        "attention_get_one",
-        "trial-one",
-        "attention_get_two",
-        "trial-two",
-        "attention_get_three",
-        "trial-three",
-        "attention_get_one",
-        "trial-four",
-        "study-completion",
+        "test-trials",
         "my-exit-survey"
     ]
 }
