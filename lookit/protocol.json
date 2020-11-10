@@ -187,14 +187,15 @@
                 "requireVideoCount": 1,
                 "parentTextBlock": {
                     "text": "If your child needs a break, just press SPACE to pause!"
-                }
+                },
+                "pauseText": "(The recording will take a moment to restart.)"
             },
             "parameterSets": [
                 {
                     "VIDEO0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
                     "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
-                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
-                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
+                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
+                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
                     "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
                     "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
                     "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
@@ -203,8 +204,8 @@
                 {
                     "VIDEO0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
                     "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
-                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
-                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
+                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
+                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
                     "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
                     "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
                     "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
