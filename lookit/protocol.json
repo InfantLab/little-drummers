@@ -31,7 +31,7 @@
                     "video": {
                         "source": [
                             {
-                                "src": "ATTN0",
+                                "src": "ATTN3",
                                 "type": "video/mp4"
                             }
                         ]
@@ -118,7 +118,7 @@
                     "video": {
                         "source": [
                             {
-                                "src": "ATTN0",
+                                "src": "ATTN3",
                                 "type": "video/mp4"
                             }
                         ]
@@ -131,7 +131,35 @@
                     "video": {
                         "source": [
                             {
-                                "src": "VIDEO3",
+                                "src": "VIDEO4",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "attngetter4",
+                    "requiredDuration": 5,
+                    "doRecording": false,
+                    "parentTextBlock": {
+                        "text": "Next video coming up shortly."
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "ATTN1",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },{
+                    "name": "video5",
+                    "requiredDuration": 20,
+                    "doRecording": true,
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO5",
                                 "type": "video/mp4"
                             }
                         ]
@@ -147,7 +175,7 @@
                     "video": {
                         "source": [
                             {
-                                "src": "ATTN4",
+                                "src": "ATTN2",
                                 "type": "video/mp4"
                             }
                         ]
@@ -168,11 +196,9 @@
                     "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
                     "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
                     "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
-                    "ATTN0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
                     "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
                     "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
-                    "ATTN4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4"
+                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4"
                 },
                 {
                     "VIDEO0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
@@ -180,11 +206,9 @@
                     "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
                     "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
                     "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
-                    "ATTN0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
                     "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
                     "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                    "ATTN4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4"
+                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4"
                 }
             ]
         },
