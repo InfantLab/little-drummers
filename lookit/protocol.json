@@ -159,7 +159,7 @@
                     "video": {
                         "source": [
                             {
-                                "src": "VIDEO5",
+                                "src": "VIDEO0",
                                 "type": "video/mp4"
                             }
                         ]
@@ -230,7 +230,7 @@
             "institution": "University of Cambridge and Goldsmiths, University of London, UK",
             "additional_segments": [
                 {
-                    "text": "We cannot promise any benefits to you or others from your taking part in this research. You will not receive results of the procedures and tasks your child performs as part of this research. Our conclusions are about how groups of children respond, and therefore individual results are not meaningful. However, possible benefits include learning more about research with children. Possible benefits to others include a general understanding of how children learn about the visual world, which may be important for educators and others.",
+                    "text": "We cannot promise any benefits to you or others from your taking part in this research. You will not receive results of the procedures and tasks your child performs as part of this research. Our conclusions are about how groups of children respond, and therefore individual results are not meaningful. However, possible benefits include learning more about research with children.",
                     "title": "Benefits"
                 },
                 {
