@@ -6,41 +6,12 @@
             "id": "test-trials",
             "frameList": [
                 {
-                    "name": "video0",
+                    "name": "video1",
                     "requiredDuration": 20,
                     "doRecording": true,
                     "parentTextBlock": {
                         "text": "In this video there is no sound, please encourage your child to drum without any music, using the prompts written above. Remember not to show them how to drum!"
                     },
-                    "video": {
-                        "source": [
-                            {
-                                "src": "VIDEO0",
-                                "type": "video/mp4"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "name": "attngetter0",
-                    "requiredDuration": 5,
-                    "doRecording": false,
-                    "parentTextBlock": {
-                        "text": "Next video coming up shortly."
-                    },
-                    "video": {
-                        "source": [
-                            {
-                                "src": "ATTN3",
-                                "type": "video/mp4"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "name": "video1",
-                    "requiredDuration": 20,
-                    "doRecording": true,
                     "video": {
                         "source": [
                             {
@@ -147,26 +118,59 @@
                     "video": {
                         "source": [
                             {
-                                "src": "ATTN1",
-                                "type": "video/mp4"
-                            }
-                        ]
-                    }
-                },{
-                    "name": "video5",
-                    "requiredDuration": 20,
-                    "doRecording": true,
-                    "video": {
-                        "source": [
-                            {
-                                "src": "VIDEO0",
+                                "src": "ATTN4",
                                 "type": "video/mp4"
                             }
                         ]
                     }
                 },
                 {
-                    "name": "attngetter4",
+                    "name": "video5",
+                    "requiredDuration": 20,
+                    "doRecording": true,
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO5",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "attngetter5",
+                    "requiredDuration": 5,
+                    "doRecording": false,
+                    "parentTextBlock": {
+                        "text": "Next video coming up shortly."
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "ATTN5",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "video6",
+                    "requiredDuration": 20,
+                    "doRecording": true,
+                    "parentTextBlock": {
+                        "text": "In this video there is no sound, please encourage your child to drum without any music, using the prompts written above. Remember not to show them how to drum!"
+                    },
+                    "video": {
+                        "source": [
+                            {
+                                "src": "VIDEO1",
+                                "type": "video/mp4"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "attngetter6",
                     "requiredDuration": 5,
                     "doRecording": false,
                     "parentTextBlock": {
@@ -175,7 +179,7 @@
                     "video": {
                         "source": [
                             {
-                                "src": "ATTN2",
+                                "src": "ATTN1",
                                 "type": "video/mp4"
                             }
                         ]
@@ -192,24 +196,28 @@
             },
             "parameterSets": [
                 {
-                    "VIDEO0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
-                    "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
-                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
-                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
-                    "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
-                    "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                    "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4"
+                    "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
+                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
+                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
+                    "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
+                    "VIDEO5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
+                    "ATTN1" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
+                    "ATTN2" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                    "ATTN3" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                    "ATTN4" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter4.mp4",
+                    "ATTN5" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter5.mp4"
                 },
                 {
-                    "VIDEO0": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
-                    "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
-                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
-                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
-                    "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
-                    "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
-                    "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4"
+                    "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
+                    "VIDEO2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
+                    "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
+                    "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
+                    "VIDEO5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
+                    "ATTN1" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter5.mp4",
+                    "ATTN2" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
+                    "ATTN3" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                    "ATTN4" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                    "ATTN5" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter4.mp4"
                 }
             ]
         },
@@ -225,7 +233,7 @@
             "payment": "There is no compensation for taking part in this study.",
             "purpose": "Whilst tapping along to our favourite song may seem automatic to us as adults, it is actually a pretty complex behaviour. We know that young children are brilliant at ‘sensing’ the rhythm of music but that they take some time to be able to coordinate their movement to it. We would like to know if the developing skill of toddlers to move in time with the beat of music is related to their general ability to monitor and adapt to the environment around them.",
             "template": "consent_002",
-            "PIContact": "This study is run by Dr. Sinead Rocha at University of Cambridge, UK, and Dr. Caspar Addyman at Goldsmiths, University of London, UK. If you or your child have any questions or concerns about this study, or in the very unlikely event of a research-related injury, please contact the Goldsmiths InfantLab at infantlab@gold.ac.uk or Dr Sinead Rocha at sineadrocha@gmail.com.",
+            "PIContact": "Dr Sinead Rocha at sineadrocha@gmail.com or Dr Caspar Addyman at c.addyman@gold.ac.uk",
             "procedures": "We ask that your child is sat in a chair or highchair, within easy reach of a table. Your child will see some videos of a hand drumming (some fast, some slow) and will be asked to drum along on the table in front of them. We will then ask you to complete an online survey, which includes some fun interactive games to try with your little one. There are no anticipated risks associated with participating.",
             "institution": "University of Cambridge and Goldsmiths, University of London, UK",
             "additional_segments": [
@@ -235,7 +243,7 @@
                 },
                 {
                     "text": "This research has been reviewed and approved by the ethics committee at Goldmiths, University of London. You should also know that you may contact any of the following people if you are unhappy about the way your data or your participation in this study are being treated: 1)  Goldsmiths Data Protection Officer – dp@gold.ac.uk  (concerning your rights to control personal data). 2) Chair, Goldsmiths Research Ethics and Integrity Sub-Committee - via reisc@gold.ac.uk, REISC Secretary (for any other element of the study). 3) You also have the right to lodge a complaint with the Information Commissioner’s Office at https://ico.org.uk/make-a-complaint/",
-                    "title": "Rights of research subjects"
+                    "title": "Data Protection"
                 }
             ],
             "Use of data by Lookit": "Because this study is being run on the Lookit platform, researchers working on the Lookit project at MIT will also have access to the data collected during this session, in addition to your account data, child profiles, and demographic survey responses. This data may be used by Lookit to detect and fix technical problems or identify new featuresthat would be helpful; provide support to study researchers; assess data quality (for instance, how well an observer can tell which direction children are looking); evaluate the site's success in reaching a diverse population; and characterize family engagement (for instance, looking at what aspects of a study make parents more interested in coming back later).",
@@ -291,7 +299,7 @@
                             "text": "Above is an example of what we would like to see - you will need some table space between your child and the computer, so you might need to push the computer a bit further back than normal."
                         },
                         {
-                            "text": "Don’t worry if you feel your baby becoming disinterested in the screen. Even if your baby only drums a little bit, we are still collecting valuable data from your baby."
+                            "text": "Don’t worry if you feel your child becoming disinterested in the screen. Even if your child only drums a little bit, we are still collecting valuable data from your child."
                         }
                     ]
                 },
