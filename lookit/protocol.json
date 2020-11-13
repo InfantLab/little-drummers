@@ -253,7 +253,7 @@
         "my-exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email.\n Examining how moving in time with the beat is related to a general ability to be flexible and adaptive in our behavior will give us new insights into what cognitive skills are really feeding into our sense of rhythm.Thank you so much for contributing to this research.We hope you enjoy the final part of the study!",
+                "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email.\n\n Examining how moving in time with the beat is related to a general ability to be flexible and adaptive in our behavior will give us new insights into what cognitive skills are really feeding into our sense of rhythm.Thank you so much for contributing to this research.We hope you enjoy the final part of the study!",
                 "image": {
                     "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/waitinggame.png"
                 },
@@ -282,12 +282,7 @@
                 },
                 {
                     "image": {
-                        "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/kid.drumontable.up.png"
-                    }
-                },
-                {
-                    "image": {
-                        "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/kid.drumontable.down.png"
+                        "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/kid.drumming.png"
                     }
                 },
                 {
@@ -312,7 +307,7 @@
                             "text": "The most important role you have during the study is to match sure your child stays in front of the computer."
                         },
                         {
-                            "text": "You can encourage them to keep drumming, but please do not show them what to do!’"
+                            "text": "You can encourage them to keep drumming, but please do not show them what to do!"
                         }
                     ]
                 },
