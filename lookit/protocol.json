@@ -7,7 +7,7 @@
             "frameList": [
                 {
                     "name": "video1",
-                    "requiredDuration": 20,
+                    "requiredDuration": 30,
                     "doRecording": true,
                     "parentTextBlock": {
                         "text": "In this video there is no sound, please encourage your child to drum without any music, using the prompts written above. Remember not to show them how to drum!"
@@ -155,7 +155,7 @@
                 },
                 {
                     "name": "video6",
-                    "requiredDuration": 20,
+                    "requiredDuration": 30,
                     "doRecording": true,
                     "parentTextBlock": {
                         "text": "In this video there is no sound, please encourage your child to drum without any music, using the prompts written above. Remember not to show them how to drum!"
@@ -229,7 +229,7 @@
             "gdpr": true,
             "kind": "exp-lookit-video-consent",
             "PIName": "Dr Sinead Rocha and Dr Caspar Addyman",
-            "datause": "We are primarily interested in your child's ability to match the rhythms that they hear. We will use specialist software to track your child’s movements in the video and give an estimation of their timing, and then look at this data in light of your survey responses.",
+            "datause": "We are interested in your child's ability to match the rhythms that they hear. We will use specialist software to measure the timing of your child’s movements. We will look at these data in light of your survey responses.",
             "payment": "There is no compensation for taking part in this study.",
             "purpose": "Whilst tapping along to our favourite song may seem automatic to us as adults, it is actually a pretty complex behaviour. We know that young children are brilliant at ‘sensing’ the rhythm of music but that they take some time to be able to coordinate their movement to it. We would like to know if the developing skill of toddlers to move in time with the beat of music is related to their general ability to monitor and adapt to the environment around them.",
             "template": "consent_002",
@@ -247,13 +247,13 @@
                 }
             ],
             "Use of data by Lookit": "Because this study is being run on the Lookit platform, researchers working on the Lookit project at MIT will also have access to the data collected during this session, in addition to your account data, child profiles, and demographic survey responses. This data may be used by Lookit to detect and fix technical problems or identify new featuresthat would be helpful; provide support to study researchers; assess data quality (for instance, how well an observer can tell which direction children are looking); evaluate the site's success in reaching a diverse population; and characterize family engagement (for instance, looking at what aspects of a study make parents more interested in coming back later).",
-            "Publication of results": "The results of the research may be presented at scientific meetings or published in scientific journals. Raw data (for instance, the timing of movements) may be published when it cannot identify children. We never publish children's birthdates or names, and we never publish your demographic data in conjunction with your child's video.",
+            "Publication of results": "The results of the research may be presented at scientific meetings or published in scientific journals. Raw data (for instance, the tempo of children's table hits) may be published when it cannot identify children. We never publish children's birthdates or names, and we never publish your demographic data in conjunction with your child's video.",
             "Data collection and webcam recording": "During the session, you and your child will be recorded via your computer's webcam and microphone. Video recordings and other data you enter are sent securely to our lab. At the end of the session, you will be prompted to choose a privacy level for your webcam recordings. You will have the option to withdraw your video data at this point.Data is stored securely on Lookit servers and by researchers. However, there is always a small risk that data transmitted over the internet may be intercepted or that the security of stored data may be compromised.No video clips will be published or shared unless you allow this when selecting aprivacy level. If we do not receive a consent recording (the video you'll make to the right) for this session and cannot verify that you agreed to participate, no other video from your session will be viewed."
         },
         "my-exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
-                "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email.\n\n Examining how moving in time with the beat is related to a general ability to be flexible and adaptive in our behavior will give us new insights into what cognitive skills are really feeding into our sense of rhythm.Thank you so much for contributing to this research.We hope you enjoy the final part of the study!",
+                "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email.\n\n Moving in time with the beat is related to children's general ability to be flexible and adaptive in their behavior. This study will give us new insights into the cognitive skills that feed into our sense of rhythm. Thank you so much for contributing to this research.We hope you enjoy the final part of the study!",
                 "image": {
                     "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/waitinggame.png"
                 },
@@ -304,7 +304,7 @@
                 {
                     "listblocks": [
                         {
-                            "text": "The most important role you have during the study is to match sure your child stays in front of the computer."
+                            "text": "The most important role you have during the study is to make sure your child stays in front of the computer."
                         },
                         {
                             "text": "You can encourage them to keep drumming, but please do not show them what to do!"
