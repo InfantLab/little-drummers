@@ -9,7 +9,8 @@ This folder contains files to run a web based study of rhythm perception in todd
 
 The `proctocol.json` file tells the LookIt experiment runner what sequence of pages to show in what order.
 
-```    "sequence": [
+```
+    "sequence": [
         "video-config",
         "video-consent",
         "first-instructions",
