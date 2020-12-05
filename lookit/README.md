@@ -21,7 +21,7 @@ The `proctocol.json` file tells the LookIt experiment runner what sequence of pa
 
 The current experiment consists of the following screens:  
  1. `video-config` -Standard LookIt camera set up instructions.
- 2. `video-consent` The consent document is based on [Lookit consent form template 5.md](https://github.com/lookit/research-resources/blob/master/Legal/Lookit%20consent%20form%20template%205.md]. We set all the values we need for `PIName`, `purpose`, etc.
+ 2. `video-consent` The consent document is based on [Lookit consent form template 5.md](https://github.com/lookit/research-resources/blob/master/Legal/Lookit%20consent%20form%20template%205.md). We set all the values we need for `PIName`, `purpose`, etc.
  Participants record a video statement that they've read the consent document
  3. `first-instructions` - Instructions specific for this study. It's very simple so we only need one page.
  4. `test-trials` - The experiment itself. We use `"sampler": "random-parameter-set"` with two different `parameter-sets` to show the tempo trials in two orders.  
