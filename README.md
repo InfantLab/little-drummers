@@ -3,7 +3,7 @@
 ### Principal Investigator - Dr Sinead Rocha <sineadrocha@gmail.com>
 #### University of Cambridge
 
-### Co-investigator Caspar Addyman <c.addyman@gold.ac.uk> 
+### Co-investigator - Dr Caspar Addyman <c.addyman@gold.ac.uk> 
 #### Goldsmiths, University of London
 
 _Version - Not even alpha!_
