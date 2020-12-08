@@ -18,4 +18,7 @@ This directory has several subfolders
 * `data` - Anonymised data from the study
 
 
+Click here for a [video walkthrough](https://goldsmiths.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=48e290d9-fe70-4180-a29d-ac840101c2cd) of the study.
+
+
 _This study has recieved ethical approval from the Ethics Committee in the Psychology Department of Goldsmiths, University of London, September 2020._
