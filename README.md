@@ -8,7 +8,7 @@
 
 _Version - Not even alpha!_
 
-This repository holds code, data and documentation for a study of rhythm perception and generation in toddlers. We ask 1-2 year olds to bang on a table either with or without an accompanying tempo video. Experiment takes place in parents own home and is recorded on their laptop using the [MIT LookIT](https://lookit.mit.edu) platform. 
+This repository holds code, data and documentation for a study of rhythm perception and generation in toddlers. We ask 2 to 2.5 year olds to bang on a table either with or without an accompanying tempo video. Experiment takes place in parents own home and is recorded on their laptop using the [MIT LookIT](https://lookit.mit.edu) platform. 
 
 
 
