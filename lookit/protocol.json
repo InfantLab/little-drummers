@@ -26,7 +26,7 @@
                     "requiredDuration": 5,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Next video coming up shortly."
+                        "text": "Video 2 out of 6 coming up shortly."
                     },
                     "video": {
                         "source": [
@@ -41,6 +41,9 @@
                     "name": "video2",
                     "requiredDuration": 20,
                     "doRecording": true,
+                   "parentTextBlock": {
+                        "text": "Parents, in this video you could say 'Can you drum along?'"
+                    },
                     "video": {
                         "source": [
                             {
@@ -55,7 +58,7 @@
                     "requiredDuration": 5,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Next video coming up shortly."
+                        "text": "Video 3 out of 6 coming up shortly."
                     },
                     "video": {
                         "source": [
@@ -70,6 +73,9 @@
                     "name": "video3",
                     "requiredDuration": 20,
                     "doRecording": true,
+                    "parentTextBlock": {
+                        "text": "Parents, in this video you could say 'Can you drum along?'"
+                    },
                     "video": {
                         "source": [
                             {
@@ -84,7 +90,7 @@
                     "requiredDuration": 5,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Next video coming up shortly."
+                        "text": "Video 4 out of 6 coming up shortly."
                     },
                     "video": {
                         "source": [
@@ -99,6 +105,9 @@
                     "name": "video4",
                     "requiredDuration": 20,
                     "doRecording": true,
+                    "parentTextBlock": {
+                        "text": "Parents, in this video you could say 'Can you drum along?'"
+                    },
                     "video": {
                         "source": [
                             {
@@ -113,7 +122,7 @@
                     "requiredDuration": 5,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Next video coming up shortly."
+                        "text": "Video 5 out of 6 coming up shortly."
                     },
                     "video": {
                         "source": [
@@ -128,6 +137,9 @@
                     "name": "video5",
                     "requiredDuration": 20,
                     "doRecording": true,
+                    "parentTextBlock": {
+                        "text": "Parents, in this video you could say 'Can you drum along?'"
+                    },
                     "video": {
                         "source": [
                             {
@@ -142,7 +154,7 @@
                     "requiredDuration": 5,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "Next video coming up shortly."
+                        "text": "Video 6 out of 6 coming up shortly."
                     },
                     "video": {
                         "source": [
@@ -201,11 +213,11 @@
                     "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
                     "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
                     "VIDEO5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/700ms.540p.mp4",
-                    "ATTN1" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                    "ATTN2" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                    "ATTN3" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
-                    "ATTN4" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter4.mp4",
-                    "ATTN5" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter5.mp4"
+                    "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
+                    "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                    "ATTN4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter4.mp4",
+                    "ATTN5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter5.mp4"
                 },
                 {
                     "VIDEO1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/SpontaneousMotorTempo.540p.mp4",
@@ -213,11 +225,11 @@
                     "VIDEO3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/500ms.540p.mp4",
                     "VIDEO4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/600ms.540p.mp4",
                     "VIDEO5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/400ms.540p.mp4",
-                    "ATTN1" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter5.mp4",
-                    "ATTN2" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
-                    "ATTN3" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
-                    "ATTN4" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
-                    "ATTN5" : "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter4.mp4"
+                    "ATTN1": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter5.mp4",
+                    "ATTN2": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter1.mp4",
+                    "ATTN3": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter2.mp4",
+                    "ATTN4": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter3.mp4",
+                    "ATTN5": "https://raw.github.com/InfantLab/little-drummers/master/lookit/stimuli/AttentionGetter4.mp4"
                 }
             ]
         },
@@ -251,17 +263,38 @@
             "gdpr_personal_data": "your email address, child's date of birth",
             "gdpr_sensitive_data": "your racial or ethnic origin, video images of you and your child"
         },
-        "my-exit-survey": {
-            "kind": "exp-lookit-exit-survey",
-            "debriefing": {
-                "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! You will shortly receive a link to a fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be brilliant if you could complete the survey as soon as possible, and you can pause and come back to the survey if you need to, using the same link provided via email.\n\n Moving in time with the beat is related to children's general ability to be flexible and adaptive in their behavior. This study will give us new insights into the cognitive skills that feed into our sense of rhythm. Thank you so much for contributing to this research.We hope you enjoy the final part of the study!",
-                "image": {
-                    "src": "https://raw.github.com/InfantLab/little-drummers/master/lookit/images/waitinggame.png"
-                },
-                "title": "Thank you for participating in our study!"
-            }
-        },
         "first-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "What you (parent or guardian) have to do:",
+                    "listblocks": [
+                        {
+                            "text": "The most important role you have during the study is to make sure your child stays in front of the computer."
+                        },
+                        {
+                            "text": "You can encourage them to keep drumming, but please do not show them what to do!"
+                        }
+                    ]
+                },
+                {
+                    "title": "What to do when the study is finished:",
+                    "listblocks": [
+                        {
+                            "text": "Once the study has finished playing, you’ll be given an opportunity to report any technical problems you may have experienced along the way."
+                        },
+                        {
+                            "text": "Then, you be asked to select a privacy level for your videos."
+                        },
+                        {
+                            "text": "Finally, we will take you to our questionnaire - you can complete this at a later date if preferred ."
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "I'm ready to get my child in position"
+        },
+        "second-instructions": {
             "kind": "exp-lookit-instructions",
             "blocks": [
                 {
@@ -298,30 +331,6 @@
                             "text": "Don’t worry if you feel your child becoming disinterested in the screen. Even if your child only drums a little bit, we are still collecting valuable data from your child."
                         }
                     ]
-                },
-                {
-                    "title": "What you should do during the study"
-                },
-                {
-                    "listblocks": [
-                        {
-                            "text": "The most important role you have during the study is to make sure your child stays in front of the computer."
-                        },
-                        {
-                            "text": "You can encourage them to keep drumming, but please do not show them what to do!"
-                        }
-                    ]
-                },
-                {
-                    "title": "What to do when the study is finished:",
-                    "listblocks": [
-                        {
-                            "text": "Once the study has finished playing, you’ll be given an opportunity to report any technical problems you may have experienced along the way."
-                        },
-                        {
-                            "text": "Lastly, you’ll be able to select a privacy level for your videos."
-                        }
-                    ]
                 }
             ],
             "showWebcam": true,
@@ -338,13 +347,22 @@
                     ]
                 }
             ],
-            "nextButtonText": "Me and my child are in position and ready to start!"
+            "nextButtonText": "We are in position and ready to start!"
+        },
+
+        "my-exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "title": "Thank you for participating in our study!",
+                "text": "What was this study about?\n\nYoung children find moving in time with the beat quite a tricky skill to master! We are interested if this is related their ability to be flexible in their behaviour, and to match their behaviour to the environment around them. From these videos we will measure how your child changed their rhythm in response to the different tempos they saw and heard. And how this differed from their own 'natural rhythm', which we measured in the silent videos.\n\n We will then combine this with information you provide in our questionnaire. This will give us new insights into the cognitive skills that feed into our sense of rhythm.\n\n\nWhat happens next?\n\nNow that your little one has done some brilliant drumming for us, it is your turn to take part! The exit button takes you to our fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be brilliant if you could complete the survey as soon as possible. But if you can't do it all now and you can pause and come back to the survey later if you need to. We will shortly send you an email with a link to the survey. We hope you enjoy the final part of the study!"
+            }
         }
     },
     "sequence": [
         "video-config",
         "video-consent",
         "first-instructions",
+        "second-instructions",
         "test-trials",
         "my-exit-survey"
     ]
