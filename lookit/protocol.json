@@ -41,7 +41,7 @@
                     "name": "video2",
                     "requiredDuration": 20,
                     "doRecording": true,
-                   "parentTextBlock": {
+                    "parentTextBlock": {
                         "text": "Adults, in this video you could say 'Can you drum along?'"
                     },
                     "video": {
@@ -246,7 +246,7 @@
             "purpose": "Whilst tapping along to our favourite song may seem automatic to us as adults, it is actually a pretty complex behaviour. We know that young children are brilliant at ‘sensing’ the rhythm of music but that they take some time to be able to coordinate their movement to it. We would like to know if the developing skill of toddlers to move in time with the beat of music is related to their general ability to monitor and adapt to the environment around them.",
             "procedures": "We ask that your child is sat in a chair or highchair, within easy reach of a table. Your child will see some videos of a hand drumming (some fast, some slow) and will be asked to drum along on the table in front of them. We will then ask you to complete an online survey, which includes some fun interactive games to try with your little one. There are no anticipated risks associated with participating.",
             "datause": "We are interested in your child's ability to match the rhythms that they hear. We will use specialist software to measure the timing of your child’s movements. We will look at these data in light of your survey responses.",
-            "payment" : "There is no compensation for taking part in this study. We cannot promise any benefits to you or others from your taking part in this research. You will not receive results of the procedures and tasks your child performs as part of this research. Our conclusions are about how groups of children respond, and therefore individual results are not meaningful. However, possible benefits include learning more about research with children.",
+            "payment": "There is no compensation for taking part in this study. We cannot promise any benefits to you or others from your taking part in this research. You will not receive results of the procedures and tasks your child performs as part of this research. Our conclusions are about how groups of children respond, and therefore individual results are not meaningful. However, possible benefits include learning more about research with children.",
             "Publication of results": "The results of the research may be presented at scientific meetings or published in scientific journals. Raw data (for instance, the tempo of children's table hits) may be published when it cannot identify children. We never publish children's birthdates or names, and we never publish your demographic data in conjunction with your child's video.",
             "additional_segments": [
                 {
@@ -345,12 +345,20 @@
             ],
             "nextButtonText": "We are in position and ready to start!"
         },
-
         "my-exit-survey": {
             "kind": "exp-lookit-exit-survey",
             "debriefing": {
                 "title": "Thank you for participating in our study!",
-                "text": "What was this study about?\n\nYoung children find moving in time with the beat quite a tricky skill to master! We are interested if this is related their ability to be flexible in their behaviour, and to match their behaviour to the environment around them. From these videos we will measure how your child changed their rhythm in response to the different tempos they saw and heard. And how this differed from their own 'natural rhythm', which we measured in the silent videos.\n\n We will then combine this with information you provide in our questionnaire. This will give us new insights into the cognitive skills that feed into our sense of rhythm.\n\n\nWhat happens next?\n\nNow that your little one has done some brilliant drumming for us, it is your turn to take part! The exit button takes you to our fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be appreciated if you could complete the survey as soon as possible.If you can’t do it all now, you can pause and come back to the survey later. We will shortly send you an email with a link to the survey. We hope you enjoy the final part of the study!"
+                "blocks": [
+                    {
+                        "title": "What was this study about?",
+                        "text": "Young children find moving in time with the beat quite a tricky skill to master! We are interested if this is related their ability to be flexible in their behaviour, and to match their behaviour to the environment around them. From these videos we will measure how your child changed their rhythm in response to the different tempos they saw and heard. And how this differed from their own 'natural rhythm', which we measured in the silent videos.\n\n We will then combine this with information you provide in our questionnaire. This will give us new insights into the cognitive skills that feed into our sense of rhythm."
+                    },
+                    {
+                        "title": "What happens next?",
+                        "text": "Now that your little one has done some brilliant drumming for us, it is your turn to take part! The exit button takes you to our fun survey asking questions about whether your child is able to keep going with a tricky task, or try a new strategy. It involves some interactive games for you to try at home too - can they really wait to eat their favorite food?! \n\n It would be appreciated if you could complete the survey as soon as possible.If you can’t do it all now, you can pause and come back to the survey later. We will shortly send you an email with a link to the survey. We hope you enjoy the final part of the study!"
+                    }
+                ]
             }
         }
     },
