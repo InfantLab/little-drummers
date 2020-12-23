@@ -18,7 +18,8 @@
                                 "src": "VIDEO1",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -34,7 +35,8 @@
                                 "src": "ATTN1",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -42,7 +44,7 @@
                     "requiredDuration": 20,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "Adults, in this video you could say 'Can you drum along?'"
+                        "text": "Adults, in this video please say 'Can you drum along?'"
                     },
                     "video": {
                         "source": [
@@ -50,7 +52,8 @@
                                 "src": "VIDEO2",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -66,7 +69,8 @@
                                 "src": "ATTN2",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -74,7 +78,7 @@
                     "requiredDuration": 20,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "Adults, in this video you could say 'Can you drum along?'"
+                        "text": "Adults, in this video please say 'Can you drum along?'"
                     },
                     "video": {
                         "source": [
@@ -82,7 +86,8 @@
                                 "src": "VIDEO3",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -98,7 +103,8 @@
                                 "src": "ATTN3",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -106,7 +112,7 @@
                     "requiredDuration": 20,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "Adults, in this video you could say 'Can you drum along?'"
+                        "text": "Adults, in this video please say 'Can you drum along?'"
                     },
                     "video": {
                         "source": [
@@ -114,7 +120,8 @@
                                 "src": "VIDEO4",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -130,7 +137,8 @@
                                 "src": "ATTN4",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -138,7 +146,7 @@
                     "requiredDuration": 20,
                     "doRecording": true,
                     "parentTextBlock": {
-                        "text": "Adults, in this video you could say 'Can you drum along?'"
+                        "text": "Adults, in this video please say 'Can you drum along?'"
                     },
                     "video": {
                         "source": [
@@ -146,7 +154,8 @@
                                 "src": "VIDEO5",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -162,7 +171,8 @@
                                 "src": "ATTN5",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -178,7 +188,8 @@
                                 "src": "VIDEO1",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 },
                 {
@@ -186,7 +197,7 @@
                     "requiredDuration": 5,
                     "doRecording": false,
                     "parentTextBlock": {
-                        "text": "The study is over. Well done."
+                        "text": "This part of the study is over. Well done."
                     },
                     "video": {
                         "source": [
@@ -194,7 +205,8 @@
                                 "src": "ATTN1",
                                 "type": "video/mp4"
                             }
-                        ]
+                        ],
+                        "position": "fill"
                     }
                 }
             ],
@@ -248,12 +260,7 @@
             "datause": "We are interested in your child's ability to match the rhythms that they hear. We will use specialist software to measure the timing of your child’s movements. We will look at these data in light of your survey responses.",
             "payment": "There is no compensation for taking part in this study. We cannot promise any benefits to you or others from your taking part in this research. You will not receive results of the procedures and tasks your child performs as part of this research. Our conclusions are about how groups of children respond, and therefore individual results are not meaningful. However, possible benefits include learning more about research with children.",
             "Publication of results": "The results of the research may be presented at scientific meetings or published in scientific journals. Raw data (for instance, the tempo of children's table hits) may be published when it cannot identify children. We never publish children's birthdates or names, and we never publish your demographic data in conjunction with your child's video.",
-            "additional_segments": [
-                {
-                    "text": "This research has been reviewed and approved by the ethics committee at Goldmiths, University of London. You should also know that you may contact any of the following people if you are unhappy about the way your data or your participation in this study are being treated: 1)  Goldsmiths Data Protection Officer – dp@gold.ac.uk  (concerning your rights to control personal data). 2) Chair, Goldsmiths Research Ethics and Integrity Sub-Committee - via reisc@gold.ac.uk, REISC Secretary (for any other element of the study). 3) You also have the right to lodge a complaint with the Information Commissioner’s Office at https://ico.org.uk/make-a-complaint/",
-                    "title": "Data Protection"
-                }
-            ],
+            "research_rights_statement": "This research has been reviewed and approved by the ethics committee at Goldmiths, University of London. You should also know that you may contact any of the following people if you are unhappy about the way your data or your participation in this study are being treated: 1)  Goldsmiths Data Protection Officer – dp@gold.ac.uk  (concerning your rights to control personal data). 2) Chair, Goldsmiths Research Ethics and Integrity Sub-Committee - via reisc@gold.ac.uk, REISC Secretary (for any other element of the study). 3) You also have the right to lodge a complaint with the Information Commissioner’s Office at https://ico.org.uk/make-a-complaint/",
             "include_databrary": true,
             "gdpr": true,
             "gdpr_personal_data": "your email address, child's date of birth",
