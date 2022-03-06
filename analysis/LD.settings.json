@@ -1,0 +1,31 @@
+{
+  "batchName": "Little Drummer data 20220111",
+  "lastUpdate": "2022-01-30T00:49:10.028120",
+  "flags": {
+    "anon": false,
+    "includeHands": true,
+    "cleaned": true
+  },
+  "paths": {
+    "openpose": "C:\\Users\\cas\\openpose-1.5.0-binaries-win64-gpu-python-flir-3d_recommended\\",
+    "project": "C:\\Users\\cas\\OneDrive - Goldsmiths College\\Projects\\Little Drummers\\little-drummers\\analysis",
+    "videos_in": "E:\\little.drummer.20220111\\",
+    "videos_out_openpose": "E:\\little.drummer.20220111\\out\\openpose",
+    "videos_out": "..\\data",
+    "videos_out_timeseries": "..\\data\\timeseries",
+    "videos_out_analyses": "..\\data\\analyses"
+  },
+  "filenames": {
+    "videos_json": "videos.json",
+    "clean_json": "clean.json",
+    "alldatanpz": "allframedata.npz",
+    "lefthandnpz": "lefthandframedata.npz",
+    "righthandnpz": "righthandframedata.npz",
+    "cleannpz": "cleandata.npz",
+    "cleanrightnpz": "cleanrightdata.npz",
+    "cleanleftnpz": "cleanleftdata.npz",
+    "cleandataparquet": "cleandata.parquet",
+    "righthandparquet": "righthand.parquet",
+    "lefthandparquet": "lefthand.parquet"
+  }
+}
