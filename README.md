@@ -15,9 +15,10 @@ This repository holds code, data and documentation for a study of rhythm percept
 This directory has several subfolders
 * `lookit` -  This folder contains files to run a web based study of rhythm perception in toddlers. The experiment runs on the [MIT LookIT](https://lookit.mit.edu) platform. To find out more about using this in your own research visit the [LookIT documentation](https://lookit.readthedocs.io/en/develop/)
 * `docs` - Supporting documentation such as ethics forms, data sharing agreements (including GDPR) 
-* `data` - Anonymised data from the study
+* `data` - Anonymised movement data from the study
+* `analysis` - A set of jupyter(python) notebooks that are used to convert video into movement data, then collate and analyse the data. 
 
-
+### Experiment Walkthrough
 Click here for a [video walkthrough](https://goldsmiths.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=48e290d9-fe70-4180-a29d-ac840101c2cd) of the study.
 
 
