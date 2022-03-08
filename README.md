@@ -21,5 +21,7 @@ This directory has several subfolders
 ### Experiment Walkthrough
 Click here for a [video walkthrough](https://goldsmiths.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=48e290d9-fe70-4180-a29d-ac840101c2cd) of the study.
 
+### About the analysis
+The analysis was performed using the [VASC toolkit](https://github.com/InfantLab/VASC), developed by Caspar. It is a freely downloadable, open source project for extracting human movement from videos and analysing rhymthm, synchrony and causality. A tutorial can be found at the project homepage. 
 
 _This study has recieved ethical approval from the Ethics Committee in the Psychology Department of Goldsmiths, University of London, September 2020._
