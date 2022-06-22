@@ -665,9 +665,11 @@ def TrialInfo(manualcodingsheet, fourier, vidString):
     if isinstance(trial.ISI, (str)): #an SMT trial
         trial.desc = trial.name 
         trial.freq = ""
+        trial.filename = trial.name
     else:
         trial.desc = trial.name + " " + "Target ISI: " + str(trial.ISI) + "ms"
         trial.freq = "Target freq: {:.2f} Hz".format(1000/trial.ISI)
+        trial.filename = trial.name + "." + str(trial.ISI) + "ms"
     
     trial.cleaned = child.at[rowidx, (trial.name,"Data cleaned")]
     trial.attempted = child.at[rowidx, (trial.name,"Trial Attempted")]
@@ -681,7 +683,7 @@ def TrialInfo(manualcodingsheet, fourier, vidString):
 
 
 def annotate_axes(ax, text, fontsize=18):
-    ax.text(0.5, 0.5, text, transform=ax.transAxes,
+    ax.text(0.5, 0.3, text, transform=ax.transAxes,
             ha="center", va="center", fontsize=fontsize, color="darkgrey")
 
 
@@ -698,7 +700,7 @@ if trial.respcompleted and not trial.withdrawn and trial.cleaned: #is this valid
          print("no drumming")
 else:
     print("Not a valid trial")
-    
+
 
 # +
 #number of participants, average age
@@ -730,6 +732,7 @@ print(gender)
 
 # +
 plotgraphs = True
+savegraphs = False #save figs to png rather than on screen
 savedata = True
 
 
@@ -876,7 +879,13 @@ for vid in videos:
                         print(vals)
                         results.loc[vid] = vals
             
-        plt.show()
+        if savegraphs:
+            plt.savefig(f"{videos_out}\\plots\\{trial.ID}.{trial.filename}.png")
+            plt.close()
+        else:
+            plt.show()
+            plt.close()
+
 
 
 
